@@ -1,0 +1,7 @@
+Here are the key takeaways from the video "Using plugins for extra security":
+
+1. Login Security: Use plugins like Two-Factor Authentication, Limit Login Attempts Reloaded, and Admin Login URL Change to secure the login screen.
+2. User Management: Use Inactive Logout to log out idle users and User Activity Log to monitor user activities.
+3. Malware Scanning: Use plugins like Wordfence or Sucuri for malware scanning and other security services.
+4. Backups: Use a backup plugin like UpdraftPlus to create regular backups of your site.
+
