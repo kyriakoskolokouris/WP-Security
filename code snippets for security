@@ -1,0 +1,21 @@
+
+1. Disable PHP Error Reporting
+Paste into the wp-config.php file.
+  
+error_reporting(0);
+@ini_set(‘display_errors’, 0);
+
+2. Turn Off File Editing
+Paste into the wp-config.php file.
+  
+define( ‘DISALLOW_FILE_EDIT’, true );
+
+3. Protect the wp-config.php File
+Paste into the .htaccess file.
+
+<files wp-config.php>
+order allow,deny
+deny from all
+</files>
+
+ Make sure to back up your website before working 
